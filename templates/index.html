@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>New Website</title>
+<head>
+<link href="../static/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Collecting Heights</h1>
+<h3>Please Enter Your Email and Request</h3>
+ <form action="{{url_for('success')}}" method="POST">
+<pre>
+
+<input title="Your email will be safe with us" placeholder="Enter You mail address" type="email" name="email_name" required><br>
+<input type="number" placeholder="Enter Your Height here" name="height_name" required>
+</pre>
+<button type="submit">Sumbit</button>
+
+</form>
+
+
+
+
+
+
+</div>
+</body>
+
+</html>
